@@ -48,7 +48,7 @@ var app = {
         console.log('Received Event: ' + id);
     },
 	onCalculate: function() {
-		var b=document.getElementById('leng').value
+		var b=document.getElementById('leng').value;
 		var h=document.getElementById('bred').value;
 	if (b.lengt==0|| h.lengt==0)
 		document.getElementById('res').innerHTML="Error please fill all the fields.";
